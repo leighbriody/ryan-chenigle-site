@@ -20,13 +20,13 @@ export default function Home() {
       <main className="flex-1">
         <Hero />
         <SocialProofBar />
-        <ResultsGallery />
         <WhyMostFail />
+        <About />
         <WhatYouGet />
         <WhyDifferent />
         <ChooseYourPath />
         <Lifestyle />
-        <About />
+        <ResultsGallery />
         <Testimonials />
         <ReturnCalculator />
         <FAQ />

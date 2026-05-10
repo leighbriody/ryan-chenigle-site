@@ -1,23 +1,23 @@
 const FEATURES = [
   {
-    title: "Grounded",
+    title: "One market, done well",
     description:
-      "No fake lifestyles. No empty hype. Just honest education and real market commentary.",
+      "We focus on gold. Real edge comes from depth, not from chasing 30 signals a day across 10 pairs.",
   },
   {
-    title: "Structured",
+    title: "Honest in both directions",
     description:
-      "A real system built around discipline, patience, and repeatable execution.",
+      "Wins are shown. Losses are shown. Nothing buried, nothing cherry-picked. You see the full picture.",
   },
   {
-    title: "Practical",
+    title: "Founder access, not a wall",
     description:
-      "Everything is designed to help you understand and improve, not just follow blindly.",
+      "You message me and my team directly. Real answers from people who actually trade — no moderator queue.",
   },
   {
-    title: "Supportive",
+    title: "Built so you outgrow it",
     description:
-      "You get direct support from me and my team. Not a group chat where nobody answers.",
+      "The point is to teach the skill. Most members start by following signals and end up reading the market on their own.",
   },
 ];
 
@@ -51,17 +51,16 @@ export function WhyDifferent() {
             {/* Staccato paragraphs */}
             <div className="mt-7 flex flex-col gap-2.5">
               <p className="text-[14.5px] leading-[1.72] text-muted">
-                There are a lot of trading pages online.
+                There are a lot of paid trading groups out there.
               </p>
               <p className="text-[14.5px] leading-[1.72] text-muted">
-                Most of them sound fake.
+                Most throw 30 signals a day at you across markets nobody actually specialises in.
               </p>
               <p className="text-[14.5px] leading-[1.72] text-muted">
-                Most of them feel over the top.
+                Most go quiet the moment a trade goes wrong.
               </p>
               <p className="text-[14.5px] leading-[1.72] text-muted">
-                Most of them are trying to sell you excitement instead of
-                teaching you control.
+                Most leave you reading screenshots you cannot understand without them.
               </p>
             </div>
 
@@ -70,8 +69,8 @@ export function WhyDifferent() {
             </p>
 
             <p className="mt-3 text-[14.5px] leading-[1.72] text-muted">
-              I built this around how I trade and how I help people every
-              single day.
+              I built this around how I trade and how I help people every single day —
+              with depth, with honesty, and with the goal that you eventually do not need me.
             </p>
           </div>
 
