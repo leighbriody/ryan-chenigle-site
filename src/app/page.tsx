@@ -1,8 +1,10 @@
+import { About } from "@/components/About";
 import { Header } from "@/components/Header";
 import { Hero } from "@/components/Hero";
 import { ResultsGallery } from "@/components/ResultsGallery";
 import { ReturnCalculator } from "@/components/ReturnCalculator";
 import { SocialProofBar } from "@/components/SocialProofBar";
+import { WhatYouGet } from "@/components/WhatYouGet";
 
 export default function Home() {
   return (
@@ -12,6 +14,8 @@ export default function Home() {
         <Hero />
         <SocialProofBar />
         <ResultsGallery />
+        <WhatYouGet />
+        <About />
         <ReturnCalculator />
       </main>
     </div>
