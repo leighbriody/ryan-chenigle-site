@@ -34,13 +34,15 @@ export function WhyMostFail() {
       <div className="pointer-events-none absolute inset-x-0 top-0 h-px bg-gradient-to-r from-transparent via-foreground/10 to-transparent" />
 
       <div className="mx-auto w-full max-w-4xl px-6 sm:px-10">
-        {/* Eyebrow */}
-        <div className="flex items-center justify-center gap-3">
-          <span className="h-px w-6 bg-gradient-to-r from-transparent to-accent/40" />
-          <p className="text-[10.5px] font-semibold uppercase tracking-[0.42em] text-accent">
-            Why Most Fail
-          </p>
-          <span className="h-px w-6 bg-gradient-to-l from-transparent to-accent/40" />
+        {/* Chapter mark */}
+        <div className="flex items-center justify-center gap-3.5">
+          <span className="font-mono text-[11px] font-bold tracking-[0.18em] text-accent tabular-nums">
+            01
+          </span>
+          <span className="h-px w-8 bg-accent/40" />
+          <span className="text-[10.5px] font-semibold uppercase tracking-[0.42em] text-foreground/55">
+            The Problem
+          </span>
         </div>
 
         {/* Headline */}

@@ -31,13 +31,15 @@ export function About() {
       <div className="pointer-events-none absolute inset-x-0 top-0 h-px bg-gradient-to-r from-transparent via-foreground/10 to-transparent" />
 
       <div className="mx-auto w-full max-w-6xl px-6 sm:px-10">
-        {/* Eyebrow */}
-        <div className="flex items-center justify-center gap-3">
-          <span className="h-px w-6 bg-gradient-to-r from-transparent to-gold-400/70" />
-          <p className="text-[10.5px] font-semibold uppercase tracking-[0.42em] text-gold-600">
-            My Story
-          </p>
-          <span className="h-px w-6 bg-gradient-to-l from-transparent to-gold-400/70" />
+        {/* Chapter mark */}
+        <div className="flex items-center justify-center gap-3.5">
+          <span className="font-mono text-[11px] font-bold tracking-[0.18em] text-gold-600 tabular-nums">
+            02
+          </span>
+          <span className="h-px w-8 bg-gold-400/45" />
+          <span className="text-[10.5px] font-semibold uppercase tracking-[0.42em] text-foreground/55">
+            The Story
+          </span>
         </div>
 
         {/* Headline */}

@@ -102,12 +102,14 @@ export function Testimonials() {
 
         {/* Section header */}
         <div className="text-center">
-          <div className="flex items-center justify-center gap-3">
-            <span className="h-px w-6 bg-gradient-to-r from-transparent to-gold-400/70" />
-            <p className="text-[10.5px] font-semibold uppercase tracking-[0.42em] text-gold-600">
-              Testimonials
-            </p>
-            <span className="h-px w-6 bg-gradient-to-l from-transparent to-gold-400/70" />
+          <div className="flex items-center justify-center gap-3.5">
+            <span className="font-mono text-[11px] font-bold tracking-[0.18em] text-gold-600 tabular-nums">
+              04
+            </span>
+            <span className="h-px w-8 bg-gold-400/45" />
+            <span className="text-[10.5px] font-semibold uppercase tracking-[0.42em] text-foreground/55">
+              Real Stories
+            </span>
           </div>
 
           <h2 className="mt-4 font-display text-[30px] font-black leading-[1.04] tracking-[-0.03em] text-foreground sm:text-[42px] md:text-[48px]">

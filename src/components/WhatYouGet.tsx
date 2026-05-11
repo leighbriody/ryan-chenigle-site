@@ -112,12 +112,14 @@ export function WhatYouGet() {
 
         {/* Section header */}
         <div className="mb-16 text-center sm:mb-20">
-          <div className="flex items-center justify-center gap-3">
-            <span className="h-px w-6 bg-gradient-to-r from-transparent to-gold-400/50" />
-            <p className="text-[10.5px] font-semibold uppercase tracking-[0.42em] text-gold-500">
-              What You Get
-            </p>
-            <span className="h-px w-6 bg-gradient-to-l from-transparent to-gold-400/50" />
+          <div className="flex items-center justify-center gap-3.5">
+            <span className="font-mono text-[11px] font-bold tracking-[0.18em] text-gold-400 tabular-nums">
+              03
+            </span>
+            <span className="h-px w-8 bg-gold-400/35" />
+            <span className="text-[10.5px] font-semibold uppercase tracking-[0.42em] text-white/45">
+              The Offer
+            </span>
           </div>
           <h2 className="mt-4 font-display text-[26px] font-black leading-[1.05] tracking-[-0.025em] text-white sm:text-[36px] md:text-[42px]">
             What you get inside{" "}
